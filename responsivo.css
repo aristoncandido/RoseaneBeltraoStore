@@ -1,0 +1,68 @@
+@media (max-width: 375px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  
+    .menu,
+    .pesquisa {
+      margin-top: 3%;
+    }
+  
+    .pesquisa {
+      width: 60%;
+    }
+  
+    main {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    main .welcome {
+      width: 100%;
+      height: auto;
+    }
+  
+    .welcome .texto {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    .paralax {
+      height: 40%;
+    }
+  
+    .paralax h1 {
+      font-size: 3.5rem;
+    }
+  
+    section {
+      height: 50vh;
+    }
+  
+    .fotos img {
+      top: 10%;
+      width: 18rem;
+      height: 16rem;
+    }
+  
+    .store {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .categorias {
+      width: 100%;
+    }
+  
+    .loja {
+      width: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+  
+    .loja .item {
+      width: 100%;
+      height: 25%;
+    }
+  }
