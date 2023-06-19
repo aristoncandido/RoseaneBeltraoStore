@@ -131,29 +131,46 @@ body{
 
 .logo .imagem img{
     cursor: pointer;
+ 
 }
 header{
-    width: 100%;
+
+    
     height: 25%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    justify-content: space-between;
+    
     align-items: center;
+      
+}
+
+.menu{
+  padding-left: 5%;
     
-    
+}
+
+.logo{
+   
+    margin-left: 5%;
+}
+.pesquisa{
+ 
+    margin-right: 2%;
 }
 .menu .opcoes{
     display: flex;
-    width: 15%;
     list-style: none;
-    justify-content: space-around;
- 
+    justify-content: space-between;
+  
     
+      
     
 }
 
 .opcoes li{
-    margin-left: 100%;
+  margin-left: 6.5%;
     transition: 0.3s;
 }
 .opcoes li:hover{
@@ -167,12 +184,19 @@ header{
 }
 .pesquisa{
     display: flex;
+    padding-left: 5%;
+    width: 30%;
+
+      
+     
 }
+
 .pesquisa button{
     color: white;
   
    margin-left: 2%;
 }
+
 
 
 main{
@@ -197,6 +221,7 @@ main .welcome{
     top: 50%;
     font-family: 'sabao';
     font-weight: 900;
+    padding-left: 10%;
     transform: translateY(-50%);
 }
 h5{
@@ -228,7 +253,7 @@ h5:hover{
 .paralax h1{
 
     font-family: 'sabao';
-    font-weight: bolder;
+    font-weight: 200;
     font-size:5rem;
     text-shadow: 0px 0px 15px black;
     color: white;
@@ -243,6 +268,59 @@ section{
     width: 100%;
     height: 60vh;
 
-    background-color: white;
+    background-color: rgb(255, 0, 0);
+
+}
+.fotos{
+    filter: drop-shadow(-20px 5px 3px rgba(0, 0, 0, 0.158));
+    display: flex;
+
+
+
+}
+.fotos img{
+    position: relative;
+    top: 7%;
+    left: 50%;
+    width: 23rem;
+    height: 21rem;
+}
+
+.store{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    height: 500px;
+
+    background-color: black;
+    
+    
+ 
+  
+
+}
+
+.categorias{
+    width: 20%;
+    background-color: blue;
+    
+
+}
+.loja{
+    width: 80%;
+    background-color: darkgoldenrod;
+}
+
+.loja .item{
+    width: 180%;
+    height: 35%;
+    border: 1px solid black;
+    border-radius: 15pt;
+    background-color: darkseagreen;
+   
+
+
+
+
 
 }
